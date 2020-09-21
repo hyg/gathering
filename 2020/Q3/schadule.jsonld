@@ -6,7 +6,7 @@
     "wakehour":4,
     "wakemin":30,
     "duration":[75,90,15,60,45,45,30,60,150,30,30,15,90,30,45,120,240],
-    "type":["food","discuee","prepare","discuss","food","discuss","prepare","discuss","food","discuss","discuss","prepare","discuss","prepare","discuss","food","research"],
+    "type":["food","discuss","prepare","discuss","food","discuss","prepare","discuss","food","discuss","discuss","prepare","discuss","prepare","discuss","food","research"],
     "name":["运动、早餐1","讨论","休整","讨论","早餐2","讨论","休整","讨论","午餐、午休","讨论","讨论","休整","讨论","休整","讨论","晚餐","调研和协商"]
   },
   "issue": [
