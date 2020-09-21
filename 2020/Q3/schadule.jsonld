@@ -16,16 +16,16 @@
     {"id":"e","name":"e","summarizer":"ld"}
   ],
   "schadule":[
-    "2020-9-22":[
-      "discuss1":"a",
-      "discuss2":"b",
-      "discuss3":"c"
-    ],
-    "2020-9-23":[
-      "discuss1":"a",
-      "discuss2":"b",
-      "discuss3":"c"
-    ]
+    {"date":"2020-9-22","table":[
+      {"slotid":"discuss1","issueid":"a"},
+      {"slotid":"discuss2","issueid":"b"},
+      {"slotid":"discuss3","issueid":"c"}
+    ]},
+    {"date":"2020-9-23","table":[
+      {"slotid":"discuss1","issueid":"a"},
+      {"slotid":"discuss2","issueid":"b"},
+      {"slotid":"discuss3","issueid":"c"}
+    ]}
   ]
 
 }
