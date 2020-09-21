@@ -12,31 +12,31 @@
   "issue": [
     {
       "id": "a",
-      "name": "a",
+      "name": "一级规划",
       "githubissueid": 109,
       "summarizer": "hyg"
     },
     {
       "id": "b",
-      "name": "b",
+      "name": "二级规划",
       "githubissueid": 110,
       "summarizer": "ld"
     },
     {
       "id": "c",
-      "name": "c",
+      "name": "三级规划",
       "githubissueid": 111,
       "summarizer": "hyg"
     },
     {
       "id": "d",
-      "name": "d",
+      "name": "接触与刺激",
       "githubissueid": 112,
       "summarizer": "ld"
     },
     {
       "id": "e",
-      "name": "e",
+      "name": "一体框架",
       "githubissueid": 113,
       "summarizer": "ld"
     }
@@ -44,15 +44,15 @@
   "schadule": [
     {
       "date": "2020-9-22",
-      "issueid": ["a","b","c","c","a","d","e","a"]
+      "issueid": ["-","-","a","c","e","a","c","b"]
     },
     {
       "date": "2020-9-23",
-      "issueid": ["a","b","c","c","a","d","e","a"]
+      "issueid": ["b","a","d","c","b","c","d","e"]
     },
     {
       "date": "2020-9-24",
-      "issueid": ["a","b","c","c","a","d","e","a"]
+      "issueid": ["c","b","c","d","e","d","b","b"]
     }
   ]
 }
