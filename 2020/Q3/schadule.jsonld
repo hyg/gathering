@@ -1,0 +1,31 @@
+{
+  "@context": "https://json-ld.org",
+  "firstday":{
+  },
+  "lastday":{},
+  "midday":[
+    {"id":"prepare1","type":"prepare","start":"4:00:00","end":"4:29:59"},
+    {"id":"food1","type":"food","start":"4:30:00","end":"4:59:59"},
+    {"id":"discuss1","type":"discuss","start":"5:00:00","end":"6:29:59"}
+  ],
+  "issue":[
+    {"id":"a","name":"a","summarizer":"hyg"},
+    {"id":"b","name":"b","summarizer":"ld"},
+    {"id":"c","name":"c","summarizer":"hyg"},
+    {"id":"d","name":"d","summarizer":"ld"},
+    {"id":"e","name":"e","summarizer":"ld"}
+  ],
+  "schadule":[
+    "2020-9-22":[
+      "discuss1":"a",
+      "discuss2":"b",
+      "discuss3":"c"
+    ],
+    "2020-9-23":[
+      "discuss1":"a",
+      "discuss2":"b",
+      "discuss3":"c"
+    ]
+  ]
+
+}
