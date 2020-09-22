@@ -25,9 +25,9 @@
             var tab='<table border=1 width=500"><tr><th style=\'background:gray\'>主题序号</th><th>主题名称</th><th>总结人</th></tr>';
             for(var i=0;i<issue.length;i++){
                 tab+='<tr>'
-                tab+="<td style='background:gray'>"+issue[i].id+"</td>";
-                tab+="<td>"+issue[i].name+"&nbsp;"+"<a href=\"https://github.com/xuemen/PSMD/issues/"+issue[i].githubissueid+"\">"+"#"+issue[i].githubissueid+"</a></td>";
-                tab+="<td>"+issue[i].summarizer+"</td>";
+                tab+="<td style='background:gray' align=\"center\">"+issue[i].id+"</td>";
+                tab+="<td align=\"center\">"+issue[i].name+"&nbsp;"+"<a href=\"https://github.com/xuemen/PSMD/issues/"+issue[i].githubissueid+"\">"+"#"+issue[i].githubissueid+"</a></td>";
+                tab+="<td align=\"center\">"+issue[i].summarizer+"</td>";
                 tab+='</tr>'
             }
             tab+='</table>';
@@ -52,15 +52,15 @@
             var discusscnt = 0 ;
             for(var i=0;i<json.midday.duration.length;i++){
                 tab+='<tr>'
-                tab+="<td style='background:gray'  nowrap=\"nowrap\">"+starttime.toLocaleTimeString('chinese', { hour12: false })+"</td>";
+                tab+="<td style='background:gray' nowrap=\"nowrap\">"+starttime.toLocaleTimeString('chinese', { hour12: false })+"</td>";
                 endtime = new Date(starttime.getTime()+json.midday.duration[i]*60000);
-                tab+="<td style='background:gray'  nowrap=\"nowrap\">"+new Date(endtime.getTime()-1000).toLocaleTimeString('chinese', { hour12: false })+"</td>";
+                tab+="<td style='background:gray' nowrap=\"nowrap\">"+new Date(endtime.getTime()-1000).toLocaleTimeString('chinese', { hour12: false })+"</td>";
                 tab+="<td>"+json.midday.duration[i]+"</td>";
-                tab+="<td nowrap=\"nowrap\">"+json.midday.name[i]+"</td>";
+                tab+="<td nowrap=\"nowrap\" align=\"center\">"+json.midday.name[i]+"</td>";
 
                 if(json.midday.type[i] == "discuss"){
                     for(var dateid=0;dateid<json.schadule.length;dateid++){
-                        tab+="<td>"+json.schadule[dateid].issueid[discusscnt]+"</td>";
+                        tab+="<td align=\"center\">"+json.schadule[dateid].issueid[discusscnt]+"</td>";
                     }
                     discusscnt++;
                 }else{
