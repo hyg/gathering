@@ -14,31 +14,31 @@
       "id": "a",
       "name": "一级规划",
       "githubissueid": 109,
-      "summarizer": "hyg"
+      "summarizer": "李"
     },
     {
       "id": "b",
       "name": "二级规划",
       "githubissueid": 110,
-      "summarizer": "ld"
+      "summarizer": "李"
     },
     {
       "id": "c",
       "name": "三级规划",
       "githubissueid": 111,
-      "summarizer": "hyg"
+      "summarizer": "黄"
     },
     {
       "id": "d",
       "name": "接触与刺激",
       "githubissueid": 112,
-      "summarizer": "ld"
+      "summarizer": "李"
     },
     {
       "id": "e",
       "name": "一体框架",
       "githubissueid": 113,
-      "summarizer": "ld"
+      "summarizer": "黄"
     }
   ],
   "schadule": [
