@@ -50,6 +50,7 @@
             starttime.setSeconds(0);
 
             var discusscnt = 0 ;
+            
             for(var i=0;i<json.midday.duration.length;i++){
                 tab+='<tr>'
                 tab+="<td style='background:gray' nowrap=\"nowrap\">"+starttime.toLocaleTimeString('chinese', { hour12: false })+"</td>";
@@ -58,18 +59,21 @@
                 tab+="<td>"+json.midday.duration[i]+"</td>";
                 tab+="<td nowrap=\"nowrap\" align=\"center\">"+json.midday.name[i]+"</td>";
 
-                if(json.midday.type[i] == "discuss"){
-                    for(var dateid=0;dateid<json.schadule.length;dateid++){
+
+                for(var dateid=0;dateid<json.schadule.length;dateid++){
+                    alert(json.schadule[dateid].issueid);
+                    if(json.midday.type[i] == "discuss"){
                         tab+="<td align=\"center\">"+json.schadule[dateid].issueid[discusscnt]+"</td>";
+                    }else{
+                        tab+="<td></td>";
                     }
-                    discusscnt++;
-                }else{
-                    tab+="<td></td><td></td><td></td>";
                 }
 
                 tab+='</tr>'
                 starttime = endtime ;
-                
+                if(json.midday.type[i] == "discuss"){
+                    discusscnt++;
+                }
             }
             tab+='</table>';
             schaduletable.innerHTML=tab;
