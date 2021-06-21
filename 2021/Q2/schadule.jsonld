@@ -12,15 +12,15 @@
   "issue": [
     {
       "id": "a",
-      "name": "胁从契约",
+      "name": "工单模式",
       "githubissueid": 120,
       "summarizer": "黄"
     },
     {
       "id": "b",
-      "name": "账号设计",
+      "name": "2b业务",
       "githubissueid": 121,
-      "summarizer": "黄"
+      "summarizer": "李"
     },
     {
       "id": "c",
@@ -30,25 +30,25 @@
     },
     {
       "id": "d",
-      "name": "个人缺陷",
+      "name": "松散联盟",
       "githubissueid": 123,
-      "summarizer": "李"
+      "summarizer": "黄"
     },
     {
       "id": "e",
       "name": "个人模型",
-      "githubissueid": 123,
+      "githubissueid": 124,
       "summarizer": "李"
     }
   ],
   "schadule": [
     {
       "date": "2021-06-22",
-      "issueid": ["b","c","a","d","e","a","e","b","a","d"]
+      "issueid": ["-","-","-","d","e","a","b","e","a"]
     },
     {
       "date": "2021-06-23",
-      "issueid": ["c","b","d","e","d","b","d","e","b","a"]
+      "issueid": ["c","b","d","c","d","b","d","a","b"]
     }
   ]
 }
