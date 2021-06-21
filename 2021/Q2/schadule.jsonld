@@ -1,0 +1,54 @@
+{
+  "@context": "https://json-ld.org",
+  "firstday": {},
+  "lastday": {},
+  "midday": {
+    "wakehour":4,
+    "wakemin":30,
+    "duration":[75,90,15,60,45,45,30,60,150,30,30,15,90,30,45,120,60,180],
+    "type":["food","discuss","prepare","discuss","food","discuss","prepare","discuss","food","discuss","discuss","prepare","discuss","prepare","discuss","food","discuss","prepare"],
+    "name":["运动、早餐1","讨论","休整","讨论","早餐2","讨论","休整","讨论","午餐、午休","讨论","讨论","休整","讨论","休整","讨论","晚餐","讨论","休整"]
+  },
+  "issue": [
+    {
+      "id": "a",
+      "name": "胁从契约",
+      "githubissueid": 120,
+      "summarizer": "黄"
+    },
+    {
+      "id": "b",
+      "name": "账号设计",
+      "githubissueid": 121,
+      "summarizer": "黄"
+    },
+    {
+      "id": "c",
+      "name": "洗牌团队",
+      "githubissueid": 122,
+      "summarizer": "李"
+    },
+    {
+      "id": "d",
+      "name": "个人缺陷",
+      "githubissueid": 123,
+      "summarizer": "李"
+    },
+    {
+      "id": "e",
+      "name": "个人模型",
+      "githubissueid": 123,
+      "summarizer": "李"
+    }
+  ],
+  "schadule": [
+    {
+      "date": "2021-06-22",
+      "issueid": ["b","c","a","d","c","a","e","b","a","d"]
+    },
+    {
+      "date": "2021-06-23",
+      "issueid": ["c","b","d","e","a","b","d","e","b","a"]
+    }
+  ]
+}
